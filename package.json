@@ -22,7 +22,7 @@
     "commander": "^2.16.0",
     "flat": "^4.1.0",
     "guld-config": "^1.1.0",
-    "guld-git-config": "^1.2.1",
+    "guld-git-config": "^1.2.2",
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
