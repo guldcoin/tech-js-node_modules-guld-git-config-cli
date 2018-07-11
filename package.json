@@ -1,6 +1,6 @@
 {
   "name": "guld-git-config-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Guld configuration helper manages git config files.",
   "bin": {
     "guld-git-config": "./cli.js"
@@ -22,7 +22,7 @@
     "commander": "^2.16.0",
     "flat": "^4.1.0",
     "guld-config": "^1.1.0",
-    "guld-git-config": "^1.2.5",
+    "guld-git-config": "^1.2.6",
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
