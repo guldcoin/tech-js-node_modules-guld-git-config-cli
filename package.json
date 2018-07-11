@@ -22,7 +22,7 @@
     "commander": "^2.16.0",
     "flat": "^4.1.0",
     "guld-config": "^1.1.0",
-    "guld-git-config": "^1.2.2",
+    "guld-git-config": "^1.2.3",
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
@@ -43,5 +43,8 @@
   "readme": "README.md",
   "engines": {
     "node": ">=7"
-  }
+  },
+  "homepage": "https://github.com/isysd/tech-js-node_modules-guld-git-config-cli#readme",
+  "preferGlobal": true,
+  "repository": "git@github.com:isysd/tech-js-node_modules-guld-git-config-cli.git"
 }
