@@ -1,6 +1,6 @@
 {
   "name": "guld-git-config-cli",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Guld configuration helper manages git config files.",
   "bin": {
     "guld-git-config": "cli.js"
