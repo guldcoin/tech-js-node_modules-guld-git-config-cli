@@ -3,18 +3,20 @@
   "version": "1.0.12",
   "description": "Guld configuration helper manages git config files.",
   "bin": {
-    "guld-git-config": "./cli.js"
+    "guld-git-config": "cli.js"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/_mocha",
     "lint": "eslint --env browser *.js*",
-    "fix": "eslint --fix *.js*"
+    "fix": "eslint --fix *.js*",
+    "test:lint": "npm run lint && npm run test"
   },
   "keywords": [
     "guld",
     "git",
     "config",
-    "cli"
+    "cli",
+    "node"
   ],
   "author": "isysd",
   "license": "MIT",
@@ -22,7 +24,7 @@
     "commander": "^2.16.0",
     "flat": "^4.1.0",
     "guld-config": "^1.1.0",
-    "guld-git-config": "^1.2.11",
+    "guld-git-config": "^1.2.14",
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
@@ -35,7 +37,8 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.1.0",
     "mocha": "^5.2.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "chai": "^4.1.2"
   },
   "pre-commit": [
     "lint"
@@ -44,7 +47,7 @@
   "engines": {
     "node": ">=7"
   },
-  "homepage": "https://github.com/isysd/tech-js-node_modules-guld-git-config-cli#readme",
+  "homepage": "https://guld.tech/cli/guld-git-config-cli.html",
   "preferGlobal": true,
-  "repository": "git@github.com:isysd/tech-js-node_modules-guld-git-config-cli.git"
+  "repository": "https://bitbucket.org/guld/tech-js-node_modules-guld-git-config-cli"
 }
